@@ -66,6 +66,12 @@ Multi-agent systems fail the way distributed systems have always failed: **too m
 
 ---
 
+## Checks
+
+This repo holds no code. CI checks three things on every push and pull request.
+The diagram is well-formed SVG. Every relative link resolves. No commit holds a secret (gitleaks).
+Run the first two locally with `python tools/check_docs.py`.
+
 ## About
 
 A reusable reference for the agent-access pattern I architect for enterprise multi-agent systems — generalized, with no client specifics. By **Gustavo Norymberg**, Cloud & DevOps Architect: 20+ years in infrastructure and security, now building agentic systems. More: [gustavo.rhinojedi.dev](https://gustavo.rhinojedi.dev) · [github.com/rhinolands](https://github.com/rhinolands)
